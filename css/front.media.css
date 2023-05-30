@@ -1,0 +1,518 @@
+@media (max-width: 1200px) {
+    .header--title {
+        font-size: 41px;
+    }
+
+    .accordion .label::before {
+        margin-left: 82%;
+    }
+
+    .header--img {
+        margin: 12% 28%;
+    }
+
+    .hero--square {
+        width: 90%;
+        height: 66%;
+        border-radius: 19px;
+        background: #ececec;
+        position: relative;
+    }
+
+    .site2 {
+        top: 550px;
+    }
+
+    .hero--mes {
+        margin-top: -74px;
+    }
+
+    .hero--som {
+        padding: 26px 0;
+    }
+
+    .hero--som:before {
+        margin-top: 9%;
+    }
+
+    .hero--square2 {
+        margin-left: -76%;
+    }
+
+    .hero--btn {
+        width: 211px;
+        height: 53px;
+        margin-left: 74%;
+        position: absolute;
+        margin-top: -10%;
+    }
+
+    .hero--block {
+        margin: 15% 38%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .hero--forma--btn {
+        margin: -6px 99px;
+    }
+    .hero--block__square {
+        width: 100%;
+        height: 100%;
+        margin-left: -5%;
+        margin-top: -55.5%;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-width: 1024px)  {
+    .header--title {
+        font-size: 35px;
+    }
+
+    .site2 {
+        top: 474px;
+    }
+
+    .hero--btn {
+        width: 211px;
+        height: 50px;
+        margin-left: 72%;
+        margin-top: -11%;
+    }
+
+    .hero--square2 {
+        margin-left: -70%;
+    }
+
+    .hero--forma--btn {
+        margin: -1px 79px;
+    }
+    .hero--block__square {
+        width: 100%;
+        height: 100%;
+        margin-left: -5%;
+        margin-top: -58.5%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 992px) {
+    .header--title {
+        font-size: 34px;
+    }
+    .hero--block2 {
+        margin-left: 94%;}
+    .hero--forma--btn {
+        margin: -1px 83px;
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+
+    .accordion .label::before {
+        margin-left: 81%;
+    }
+
+    .hero--btn {
+        width: 190px;
+        height: 50px;
+        margin-left: 72%;
+        margin-top: -11%;
+    }
+    .hero--block__square {
+        width: 100%;
+        height: 100%;
+        margin-left: -5%;
+        margin-top: -61.5%;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header--img {
+        margin: 9% 24%;
+    }
+    .header--title {
+        font-size: 25px;
+    }
+    .header--title2 {
+         font-size: 15px;}
+    .header--title3 {
+        font-size: 15px;}
+    .hero--program {
+        font-size: 27px;}
+    .hero--item {
+        font-size: 25px;
+    }
+    .label {
+        font-size: 19px;}
+    .accordion .label::before {
+        margin-left: 78%;
+    }
+    .accordion .content {
+        width: 584px;
+        font-size: 14px;
+    }
+    .help2 {
+        font-size: 28px;}
+    .help3 {
+        font-size: 15px;
+    }
+    .you {
+        font-size: 26px;
+    }
+    .one2 {
+        font-size: 18px;
+    }
+    .one3 {
+        margin-bottom: 14%;
+        font-size: 14px;
+    }
+    .hero--square {
+        width: 90%;
+        height: 60%;
+    }
+    .hero--month {
+        font-size: 23px;}
+    .hero--month2 {
+        font-size: 15px;}
+    .hero--som {
+        font-size: 18px;
+        padding: 28px 0;
+    }
+    .hero--som2 {
+        font-size: 17px;
+        padding: 5px 17px;
+    }
+    .hero--square2 {
+        border-radius: 69%;
+        width: 61px;
+        height: 28px;
+    }
+    .hero--onthe {
+        font-size: 12px;}
+    .hero--btn {
+        width: 148px;
+        height: 46px;
+        margin-left: 70%;
+        margin-top: -15%;
+        font-size: 15px;
+    }
+    .hero--block {
+        margin: 22% 26%;
+        width: 52%;
+    }
+    .hero--forma--btn {
+         margin: -1px 132px;
+     }
+    .hero--block__square {
+        width: 100%;
+        height: 100%;
+        margin-left: -5%;
+        margin-top: -158.5%;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-width: 576px){
+    .accordion .plus.active .content {
+        width: 90%;
+    }
+    .header--title2 {
+        font-size: 13px;
+    }
+    .header--title3 {
+        font-size: 13px;
+        margin-left: -9%;
+    }
+    .header--img {
+        margin: 11% 20%;
+        width: 60%;
+    }
+    .lorem {
+        padding: 8px 13px;
+        margin-top: 40%;
+        margin-left: -41%;
+    }
+    .accordion .label::before {
+        margin-left: 73%;
+        margin-top: 2%;
+    }
+    .hero--bottom{
+        margin-bottom: 20%;}
+    .hero--square {
+        width: 90%;
+        margin-left: 5%;
+        height: 99%;
+        margin-top: 19px;
+    }
+    .hero--btn {
+        width: 148px;
+        height: 38px;
+        margin-left: 33%;
+        margin-top: -7%;
+        font-size: 15px;
+    }
+    .hero--som {
+        font-size: 18px;
+        padding: 32px 166px;
+    }
+    .hero--square2 {
+        border-radius: 69%;
+        width: 61px;
+        height: 28px;
+        margin-left: -248px;
+    }
+    .hero--som:before {
+        margin-top: 2%;
+        width: 15%;
+    }
+    .hero--block {
+        margin: 33% 26%;
+        width: 52%;
+    }
+    .hero--input {
+        margin: 21px 12px;}
+    .hero--input2 {
+        margin: 1px 12px;}
+    .hero--input3 {
+        margin: 18px 12px;}
+    .hero--forma--btn {
+        margin: 4px 78px;
+    }    hr:not([size]) {
+        height: 2px;
+    }
+    .hero--block__square {
+        width: 100%;
+        height: 100%;
+        margin-left: -5%;
+        margin-top: -146.5%;
+        overflow: hidden;
+    }
+
+
+}
+
+@media (max-width: 415px) {
+    .header--img {
+        margin: 29% 20%;
+    }
+    .accordion .label::before {
+        margin-left: 69%;
+        margin-top: 3%;
+    }
+    .lorem {
+        margin-top: 55%;
+        margin-left: -46%;
+    }
+    .hero--bottom {
+        margin-bottom: 59%;
+    }
+    .hero--square {
+        width: 90%;
+        margin-left: 5%;
+        height: 106%;
+        margin-top: 30px;
+    }
+    .hero--month {
+        font-size: 20px;
+    }
+    .hero--month2 {
+        font-size: 15px;
+        padding-top: 29px;
+        margin-left: -59px;
+    }
+    .hero--som {
+        font-size: 18px;
+        padding: 33px 92px;
+    }
+    .hero--som:before {
+        margin-top: 3%;
+        width: 22%;
+    }
+    .hero--square2 {
+        margin-top: -6px;
+        margin-left: -139px;
+    }
+    .hero--btn {
+        margin-left: 28%;}
+    .accordion .plus.active .content {
+        height: 259px;
+    }
+    .accordion .plus.active .content {
+        width: 100%;
+    }
+    .plus {
+        width: 91%;
+    }
+    .hero--block {
+        margin: 54% 7%;
+        width: 76%;
+    }
+    .hero--block__square {
+        width: 100%;
+        height: 100%;
+        margin-left: -5%;
+        margin-top: -199.5%;
+        overflow: hidden;
+    }
+    .hero--forma--btn {
+        margin: 3px 87px;
+    }
+    .lorem {
+        margin-top: 55%;
+        margin-left: -50%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 376px){
+    .accordion .plus.active .content {
+        height: 279px;
+    }
+    .hero--img {
+        width: 165px;
+        height: 169px;
+        padding: 17px 10px;
+    }
+    .hero--btn {
+        margin-left: 26%;
+    }
+    .accordion .label::before {
+        margin-left: 67%;
+        margin-top: 3%;}
+    .hero--square {
+        width: 91%;
+        margin-left: 5%;
+        height: 93%;
+        margin-top: 75px;
+    }
+    .hero--som {
+        font-size: 16px;
+        padding: 33px 112px;
+    }
+    .hero--som:before {
+        margin-top: 2.5%;
+        width: 18%;
+    }
+    .hero--square2 {
+        margin-top: -6px;
+        margin-left: -120px;
+        width: 58px;
+    }
+    .hero--som2 {
+        font-size: 15px;
+        padding: 5px 17px;
+    }
+    .hero--bottom {
+        margin-bottom: 77%;
+    }
+    .hero--block__square {
+        width: 100%;
+        height: 100%;
+        margin-left: -5%;
+        margin-top: -210.5%;
+        overflow: hidden;
+    }
+    .hero--agreement {
+        font-size: 12px;}
+    .hero--forma--btn {
+        margin: 3px 72px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header--img {
+        margin: 16% 20%;
+    }
+    .hero--program {
+        font-size: 23px;
+    }
+    .hero--item {
+        font-size: 20px;
+    }
+    .label {
+        font-size: 15px;
+    }
+    .accordion .label::before {
+        margin-left: 62%;
+        margin-top: 3%;
+    }
+    .accordion .plus.active .content {
+        height: 344px;
+    }
+    .label2 {
+        font-size: 16px;}
+    .help2 {
+        font-size: 20px;
+    }
+    .help3 {
+        font-size: 13px;}
+    .hero--img {
+        width: 135px;
+        height: 148px;
+        padding: 17px 10px;
+    }
+    .you {
+        font-size: 20px;
+    }
+    .one2 {
+        font-size: 16px;
+    }
+    .one3 {
+        margin-bottom: 14%;
+        font-size: 13px;
+    }
+    .hero--bottom {
+        margin-bottom: 71%;
+    }
+    .hero--month {
+        font-size: 17px;
+    }
+    .hero--month {
+        font-size: 17px;
+        margin: 28px -6px;
+    }
+    .hero--month2 {
+        font-size: 14px;
+        padding-top: 55px;
+        margin-left: -51px;
+    }
+    .hero--onthe {
+        font-size: 12px;
+        padding-left: 40px;
+    }
+    .hero--som:before {
+        margin-top: 3%;
+        width: 23%;
+    }
+    .hero--btn {
+        margin-left: 19%;
+    }
+    .hero--som {
+        font-size: 15px;
+        padding: 13px 71px;
+    }
+    .hero--square2 {
+        margin-top: 40px;
+        margin-left: -230px;
+        width: 58px;
+    }
+    .hero--block__square {
+        width: 100%;
+        height: 100%;
+        margin-left: -5%;
+        margin-top: -206.5%;
+        overflow: hidden;
+    }
+    .hero--forma--btn {
+        margin: 3px 51px;
+    }
+
+
+}

@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MOTION WEB LLC</title>
+    <link rel="shortcut icon" href="./img/logo_title.svg" type="image/svg"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/all.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!--    <link rel="stylesheet" href="./css/index_media.css">-->
+    <link rel="stylesheet" href="./slick/slick.css"/>
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="header__menu">
+            <div class="header__nav">
+                <a href="index.html"><img class="header__logo" src="img/logo.svg" alt=""/></a>
+                <div class="nav__menu">
+                    <a class="menu__btn" href="about.html">Биз жөнүндө</a>
+                    <a class="menu__btn" href="tel:++996708015425">+996 708 01 54 25</a>
+                </div>
+                <div class="burger-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="mobile-menu">
+                    <button class="close-btn"><i class="fas fa-times"></i></button>
+                    <div class="menu">
+                        <ul class="menu__burger">
+                            <li>
+                                <a class="menu__btn" href="about.html">Биз жөнүндө</a>
+                            </li>
+                            <li>
+                                <a class="menu__btn" href="tel:+996 700 123 404">+996 700 123 404</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="catalog">
+    <div class="container">
+        <div class="catalog">
+            <div class=""> <!--row-->
+                <div class=""> <!--col-lg-12 col-md-12 col-sm-12 col-12-->
+                    <h1 class="catalog__title">Окутуу программалары</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="catalog__about">
+    <div class="container">
+        <div class="catalog__about">
+            <div class="row">
+                <div class="menu__links_block col-lg-2 col-md-2 col-sm-2 col-2">
+                    <div class="w3-sidebar w3-bar-block w3-black w3-card" style="width:130px">
+                        <input class="w3-bar-item w3-button tablink" onclick="openLink(event, 'All')" id="defaultOpen"
+                               type="button"
+                               checked value="Бардык багыттар">
+                        <input class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')" type="button"
+                               value="Программалоо">
+                        <input class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Right')" type="button"
+                               value="Дизайн">
+                        <input class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')" type="button"
+                               value="Моушн дизайн">
+                        <input class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Bottom')" type="button"
+                               value="Бизнес">
+                    </div>
+                </div>
+                <div class=" col-lg-10 col-md-10 col-sm-12 col-12">
+                    <div class="card__block">
+                        <div id="All" class="w3-container city w3-animate-all active">
+                            <div class="w3-container">
+                                <a href="front.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Front-End developer and UX/UI design</h1>
+                                            <p>Мобилдик тиркеме жана сайттын дизайнын жасап жана аны код менен ишке
+                                                киргизгенди үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="full-stack.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Full-stack developer</h1>
+                                            <p>Сайттын Front-end жана Back-end жактарын жазанды үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="android.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Android developer</h1>
+                                            <p>Мобилдик тиркеме жазаганды үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="comp.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Компьютер нөлдөн</h1>
+                                            <p>Компьютер менен иштегенди уйроносуз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="motion.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Моушн дизайн</h1>
+                                            <p>Сурот кооздогонду, видео монтаждаганды жана анимация жазаганы
+                                                үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="uxui.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>UX/UI design</h1>
+                                            <p>Сайттын жана мобилдик тиркеменин дизайнын түзгөндү үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="marketing.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Интернет маркетолог</h1>
+                                            <p>Бизнести онлайн өнүктүргөндү үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div id="Left" class="w3-container city w3-animate-left">
+                            <div class="w3-container">
+                                <a href="front.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Front-End developer and UX/UI design</h1>
+                                            <p>Мобилдик тиркеме жана сайттын дизайнын жасап жана аны код менен ишке
+                                                киргизгенди үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="full.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Full-stack developer</h1>
+                                            <p>Сайттын Front-end жана Back-end жактарын жазанды үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="android.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Android developer</h1>
+                                            <p>Мобилдик тиркеме жазаганды үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="comp.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Компьютер нөлдөн</h1>
+                                            <p>Компьютер менен иштегенди уйроносуз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div id="Top" class="w3-container city w3-animate-top ">
+                            <div class="w3-container">
+                                <a href="motion.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Моушн дизайн</h1>
+                                            <p>Сурот кооздогонду, видео монтаждаганды жана анимация жазаганы
+                                                үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div id="Right" class="w3-container city w3-animate-right">
+                            <div class="w3-container">
+                                <a href="uxui.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>UX/UI design</h1>
+                                            <p>Сайттын жана мобилдик тиркеменин дизайнын түзгөндү үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div id="Bottom" class="w3-container city w3-animate-bottom">
+                            <div class="w3-container">
+                                <a href="marketing.html" class="col-lg-5 col-md-5 col-sm-12 col-12 w3-container__link">
+                                    <div class="row catalog__card">
+                                        <div class="col-lg-9 col-md-9 card__box">
+                                            <h4 class="card__box__block">Тренинг</h4>
+                                            <h1>Интернет маркетолог</h1>
+                                            <p>Бизнести онлайн өнүктүргөндү үйрөнөсүз</p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 card__box2">
+                                            <img src="./img/5f75b134a1a14bfe06e06eb7_Internet%20marketing.svg" alt="">
+                                            <div class="card__box2__sale">
+                                                <p>-20%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="success">
+    <div class="container">
+        <h1 class="success__title">Студенттерибиздин ийгиликтери</h1>
+        <!--        <a class="success__links" href="#"-->
+        <!--        >Бардык историялар<i class="fa fa-arrow-right arrow-right"></i-->
+        <!--        ></a>-->
+        <div class="success__wrap">
+            <div class="success__items" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <img class="success__items__photo" src="./img/otz1.jpg" alt=""/>
+                <div class="success__items__item">
+                    <h1 class="succes__items__item__title">
+                        Курстун баасы кымбат деп ойлогом
+                    </h1>
+                    <p class="succes__items__item__desc">
+                        <b>Ильгиз</b> Android разработчик курсунун студенти.
+                        Android разработчик бул - биз күндөлүктү колдонуп жүргөн приложенияларды жасаган киши.
+                        Ал эми Ильгиз буга чейин приложениялар кандай түзүлөрүн, код аркылуубу же шаблондор аркылуубу
+                        жасалаарын билген эмес.
+                        Азыр, жеке приложениясынын үстүнөн иштеп жатат.
+                        Эң кызыгы бул адистиктер башка адистиктерге салыштырмалуу 2 эсе көп табышат.
+                    </p>
+                </div>
+            </div>
+            <div class="success__items" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <img class="success__items__photo" src="./img/otz2.jpg" alt=""/>
+                <div class="success__items__item">
+                    <h1 class="succes__items__item__title">
+                        Онлайн да окуса болот экен
+                    </h1>
+                    <p class="succes__items__item__desc">
+                        Front-end+UX/UI курсунун онлайн тайпасында окуп жаткан Нышанова Тумар
+                        40 жашта.
+                        Курска чейин компьютерди билген эмес.
+                        Психолог тармагында да окуган.
+                        Өзүнүн сайтын өзү жасап, продукциясын элдерге таанытуу максатында бул курсту тандаган.
+                        Тренингди Москва шаарында туруп онлайн окуп баштаган.
+                        Бирок, үйрөнгөн инструменттерди колдонуп, өз мекенинде Бизнесин баштоо ниетинде келди.
+
+                    </p>
+                </div>
+            </div>
+            <div class="success__items" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <img class="success__items__photo" src="./img/otz3.jpg" alt=""/>
+                <div class="success__items__item">
+                    <h1 class="succes__items__item__title">
+                        Мотивацияны жаңы кодтордон алам
+                    </h1>
+                    <p class="succes__items__item__desc">
+                        Full-stack курсунун студентти Жылдызбек уулу Жыргалбек.
+                        Мектепти бүткөн соң, университетти эмес, курсту таңдаган.
+                        Себеби, аз убакыт аралыгында, жетиштүү билим алгысы келген.
+                        Курстун тренери жогорку билимдүү.
+                        Андан тышкары, менторлор да, чат аркылуу да, жандуу колдоо көрсөтүп турат.
+                        Ар бир жаңы үйрөнгөн код аркылуу мотивация алат.
+                        Каалаган убактысында жана сабактан кийин калып иштесе болот.
+                        Келечектеги планы “Америкадагы IT компанияларда программист болуп иштөө”.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="reviews">
+    <img class="reviews__icon" src="./img/icon_otz.svg" alt=""/>
+    <h1 class="reviews__title">Тренингтер тууралу ой пикирлер</h1>
+    <div class="rev_slider">
+        <div class="slide">
+            <img src="./img/commet1.jpg" alt=""/>
+            <img src="./img/commet2.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="./img/commet3.jpg" alt=""/>
+            <img src="./img/commet4.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="./img/commet5.jpg" alt=""/>
+            <img src="./img/commet6.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="./img/commet7.jpg" alt=""/>
+            <img src="./img/commet8.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="./img/commet9.jpg" alt=""/>
+            <img src="./img/commet10.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="./img/commet11.jpg" alt=""/>
+            <img src="./img/commet12.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="./img/commet13.jpg" alt=""/>
+            <img src="./img/commet14.jpg" alt=""/>
+        </div>
+    </div>
+</section>
+<section id="classes">
+    <div class="container">
+        <h1 class="success__title">Тренингтердин артыкчылыктары</h1>
+        <div class="row classes__items">
+            <div class="col-12 col-sm-6 col-xxl-3 col-xl-3 col-lg-3 classes__item">
+                <h3><i class="fas fa-network-wired"></i> 5+</h3>
+                <p class="classes__wrap">
+                    Биз ай сайын <b>изилдөө</b> жүргүзөбүз. Алардын негизинде биз
+                    программаларды жаңыртып жана өркүндүп турабыз.
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-xxl-3 col-xl-3 col-lg-3 classes__item">
+                <h3><i class="fas fa-users"></i>768+</h3>
+                <p class="classes__wrap">
+                    <b>Студенттер</b> талап кылынган кесиптерге ээ болушту жана
+                    ийгиликтүү келечектерин куруп жатышат.
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-xxl-3 col-xl-3 col-lg-3 classes__item">
+                <h3><i class="fas fa-rocket"></i> 80%</h3>
+                <p class="classes__wrap">
+                    Биздин IT академиясына тапшырган <b>бүтүрүүчүлөр</b> өз адистиги
+                    боюнча жумуш таба алышат.
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-xxl-3 col-xl-3 col-lg-3 classes__item">
+                <h3><i class="fas fa-video"></i> 100%</h3>
+                <p class="classes__wrap">
+                    Бардык <b>тренингтер</b> вебинар форматында өткөрүлөт. Сиз
+                    <b>24/7</b>
+                    күн тренингтин кайталоосун көрө аласыз.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="advantages">
+    <div class="container">
+        <h1 class="advantages__title">
+            <span style="color: #ef0000">MOTION WEB LLC IT</span> академиясын
+            артыкчылыктары
+        </h1>
+        <div class="advantages__items col-12">
+            <div class="col-xxl-4 col-xl-4 col-md-5 col-sm-12 col-12 advantages__wrap">
+                <h3>Ар бир студенке жекече көзөмөл</h3>
+                <p>
+                    Биздин адистер программаны түшүнүүгө, үй тапшырмасы боюнча
+                    суроолорго жооп берүүгө, ар кандай техникалык кыйынчылыктарды
+                    чечүүгө жана окуу сиз үчүн ыңгайлуу кылып түшүнүүгө жардам берет.
+                </p>
+            </div>
+            <div class="col-xxl-7 col-xl-7 col-md-6 col-sm-12 col-12 advantages__item">
+                <div class="col-xxl-5 col-xl-5 col-md-6 col-sm-12 col-12 advantages__item__wrap">
+                    <h3>Тренингтер 90% практика түрүндө өтүлөт.</h3>
+                    <p>
+                        Сизге өз кесибин мыкты билген адистер билим беришет. Алар күн
+                        сайын өз ийгиликтерине жардам берген тажрыйба жана өз ыкмалар
+                        менен бөлүшүшөт.
+                    </p>
+                </div>
+                <div class="col-xxl-7 col-xl-7 col-md-6 col-sm-12 col-12 advantages__item__img">
+                    <img class="advantages__item__img__pic" src="./img/mmmmm.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="students">
+    <div class="container">
+        <div class="students__wrap col-12">
+            <div class="col-6 col-sm-6 col-xxl-7 col-xl-6 col-lg-6 col-md-6 students__items">
+                <p class="students__item">
+                    <span>765+</span> адам буга чейин Motion Web LLC IT академиясынын
+                    жардамы менен өз жашоосун өзгөрткөн. Сиз дагы аракет кылыңыз?
+                </p>
+                <button type="button" class="content__link" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                >Толук маалымат алуу<img src="./img/arrow-right.svg" alt=""
+                /></button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="hero__modal">
+                                    <h5 class="modal-title" id="exampleModalLabel">Телефондук чалу заказ кылуу</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"><i class="far fa-times-circle exit__icon"></i></button>
+                                </div>
+                                <form class="feeedback__modal">
+                                    <input class="input__modal__name-nomer" type="text" placeholder="Асан">
+                                    <input class="input__modal__name-nomer" type="number"
+                                           placeholder="+996 700 123 456">
+                                    <input class="btn__modal" type="button" value="Жөнөтүү">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-xxl-6 col-xl-5 col-lg-5 col-md-5 students__item__wrap">
+                <div class="col-12 col-sm-12 students__item__img">
+                    <img src="./img/sttr.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="container">
+        <div class="footer__items col-xxl-12">
+            <a class="footer__link col-lg-3 col-4" href="tel:+996708015425">+996 708 01 54 25</a>
+            <img class="footer__img col-lg-3 col-4" src="./img/logo.svg" alt=""/>
+            <img class="footer__img2 col-lg-3 col-4" src="./img/logo_title.svg" alt=""/>
+            <span class="footer__social col-lg-3 col-4">
+						<a href="https://www.youtube.com/channel/UCO3609q78G8v8pC0Wp6hgow"><i
+                                class="fab fa-youtube"></i></a>
+						<a href="https://www.instagram.com/motion_web/?hl=ru"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-telegram"></i></a>
+            </span>
+        </div>
+    </div>
+</footer>
+
+
+<script src="./js/jquery.min.js"></script>
+
+<script src="./slick/slick.min.js"></script>
+<script src="./js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script>
+    AOS.init()
+</script>
+</body>
+</html>

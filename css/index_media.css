@@ -1,0 +1,629 @@
+@media (max-width: 1200px) {
+	/*.tablink {*/
+	/*	padding: 12px 10px;*/
+	/*	width: 155%;*/
+	/*}*/
+	/*.w3-container__link {*/
+	/*	margin: 15px 25px;*/
+	/*}*/
+	.container {
+		width: 90%;
+	}
+	/*.success__title {*/
+	/*	font-size: 50px;*/
+	/*}*/
+	/*.advantages__item__img__pic {*/
+	/*	width: 285px;*/
+	/*}*/
+	/*.students__wrap {*/
+	/*	display: flex;*/
+	/*	justify-content: center;*/
+	/*}*/
+	/*!*-----------------------------------------------*!*/
+	/*.reviews__icon {*/
+	/*	margin-left: 520px;*/
+	/*}*/
+	/*.image-slider__image img {*/
+	/*	width: 350px;*/
+	/*	margin-left: 30px;*/
+	/*}*/
+	/*!*------------------------------------------------------*!*/
+	/*#students {*/
+	/*	padding-bottom: 20px;*/
+	/*}*/
+	/*.students__item {*/
+	/*	margin-bottom: 20px;*/
+	/*	font-size: 33px;*/
+	/*}*/
+	/*!*------------------------------------*!*/
+	/*.content__link img {*/
+	/*	height: 40px;*/
+	/*}*/
+}
+
+/*@media (max-width: 1024px) {*/
+/*	.container {*/
+/*		max-width: 950px;*/
+/*	}*/
+/*	.header__logo {*/
+/*		width: 250px;*/
+/*	}*/
+/*	!*-----------------------------------------*!*/
+/*	.w3-container {*/
+/*		display: block;*/
+/*		width: 600px;*/
+/*		margin-left: 50px;*/
+/*	}*/
+/*	!*-----------------------------------------*!*/
+/*	.reviews__icon {*/
+/*		margin-left: 430px;*/
+/*	}*/
+/*	.image-slider__image img {*/
+/*		width: 320px;*/
+/*		margin-left: 10px;*/
+/*	}*/
+/*	.image-slider__image img {*/
+/*		border-radius: 20px;*/
+/*	}*/
+/*	!*---------------------------------------------*!*/
+/*	.classes__wrap {*/
+/*		font-size: 16px;*/
+/*		width: 220px;*/
+/*	}*/
+/*	!*--------------------------------------------*!*/
+/*	.advantages__title {*/
+/*		font-size: 35px;*/
+/*	}*/
+/*	.advantages__item {*/
+/*		display: inline;*/
+/*	}*/
+/*	.advantages__item__img__pic {*/
+/*		width: 180px;*/
+/*		margin: 15px 0;*/
+/*	}*/
+/*	.advantages__item__img {*/
+/*		margin-left: 0;*/
+/*	}*/
+/*	!*-------------------------------------------------------*!*/
+/*	#students {*/
+/*		padding-bottom: 10px;*/
+/*	}*/
+/*	.students__item {*/
+/*		margin-bottom: 30px;*/
+/*	}*/
+/*	.students__item {*/
+/*		font-size: 26px;*/
+/*	}*/
+/*	!*------------------------------------*!*/
+/*	.footer__link {*/
+/*		font-size: 16px;*/
+/*	}*/
+/*	!*-------------------------------------------*!*/
+/*	.students__item__img img {*/
+/*		width: 400px;*/
+/*	}*/
+
+/*	.students__item__img::before {*/
+/*		width: 400px;*/
+/*		height: 266.5px;*/
+/*	}*/
+/*	.content__link {*/
+/*		padding: 0 30px;*/
+/*	}*/
+/*	.content__link img {*/
+/*		height: 40px;*/
+/*	}*/
+/*	.students__items {*/
+/*		padding-bottom: 30px;*/
+/*	}*/
+/*}*/
+
+/*@media (max-width: 992px) {*/
+/*	!*------------------------------------------------------*!*/
+/*	.image-slider__image img {*/
+/*		width: 300px;*/
+/*		margin-left: 15px;*/
+/*	}*/
+/*	!*---------------------------------------------------------*!*/
+/*	.advantages__item__img__pic {*/
+/*		display: none;*/
+/*	}*/
+/*	!*-----------------------------------------------------*!*/
+/*	.advantages__item {*/
+/*		display: inline;*/
+/*	}*/
+/*	.advantages__item__img {*/
+/*		margin-left: 0;*/
+/*	}*/
+/*	.advantages__item__img img {*/
+/*		width: 95px;*/
+/*	}*/
+/*	!*    --------------------------------------*!*/
+/*	.footer__link {*/
+/*		font-size: 17px;*/
+/*	}*/
+/*	.footer__social {*/
+/*		width: 250px;*/
+/*	}*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+/*	.container {*/
+/*		max-width: 700px;*/
+/*	}*/
+/*	.w3-container {*/
+/*		display: block;*/
+/*		width: 450px;*/
+/*		margin-left: 50px;*/
+/*	}*/
+/*	.header__nav {*/
+/*		display: flex;*/
+/*		justify-content: space-between;*/
+/*		width: 220%;*/
+/*	}*/
+/*	.menu__btn {*/
+/*		opacity: 1;*/
+/*	}*/
+/*	.nav__menu {*/
+/*		display: none;*/
+/*	}*/
+/*	.burger-menu {*/
+/*		display: block;*/
+/*		margin-right: 40px;*/
+/*	}*/
+/*	!*    -------------------------------------------------*!*/
+/*	#reviews {*/
+/*		padding-bottom: 50px;*/
+/*	}*/
+/*	.reviews__icon {*/
+/*		margin-left: 300px;*/
+/*	}*/
+/*	.reviews__title {*/
+/*		font-size: 25px;*/
+/*	}*/
+/*	.image-slider__image img {*/
+/*		width: 350px;*/
+/*		margin-left: 15px;*/
+/*	}*/
+/*	!*    -------------------------------------------------------*!*/
+/*	#classes {*/
+/*		margin-top: 50px;*/
+/*	}*/
+/*	.classes__wrap {*/
+/*		font-size: 14px;*/
+/*	}*/
+/*	.classes__items {*/
+/*		margin-left: 50px;*/
+/*	}*/
+/*	!*    -----------------------------------------------------*!*/
+/*	.advantages__title {*/
+/*		font-size: 27px;*/
+/*	}*/
+/*	.advantages__items {*/
+/*		margin-top: 50px;*/
+/*	}*/
+/*	.advantages__item {*/
+/*		display: block;*/
+/*	}*/
+/*	.advantages__item__img {*/
+/*		display: flex;*/
+/*		margin-left: 0;*/
+/*	}*/
+/*	.advantages__item__img img {*/
+/*		width: 74px;*/
+/*	}*/
+/*	.advantages__wrap h3 {*/
+/*		font-size: 20px;*/
+/*	}*/
+/*	.advantages__wrap p {*/
+/*		font-size: 14px;*/
+/*	}*/
+/*	.advantages__item__wrap h3 {*/
+/*		font-size: 20px;*/
+/*	}*/
+/*	.advantages__item__wrap p {*/
+/*		font-size: 14px;*/
+/*	}*/
+/*	!*    ----------------------------------------*!*/
+/*	.students__item {*/
+/*		font-size: 24px;*/
+/*	}*/
+/*	.students__item__img1 img {*/
+/*		width: 50px;*/
+/*	}*/
+/*	.content__link {*/
+/*		border-radius: 50px;*/
+/*		padding: 5px 20px;*/
+/*		font-size: 14px;*/
+/*	}*/
+/*	.content__link img {*/
+/*		width: 30px;*/
+/*	}*/
+/*	.students__item {*/
+/*		margin-bottom: 10px;*/
+/*	}*/
+/*	.students__item__img img {*/
+/*		width: 300px;*/
+/*	}*/
+/*	.students__item__img::before {*/
+/*		width: 300px;*/
+/*		height: 200px;*/
+/*	}*/
+/*	.content__link {*/
+/*		padding: 0 20px;*/
+/*	}*/
+/*	.content__link img {*/
+/*		height: 30px;*/
+/*	}*/
+/*	.students__item {*/
+/*		font-size: 20px;*/
+/*	}*/
+/*	!*    -------------------------------------*!*/
+/*	.footer__img {*/
+/*		width: 150px;*/
+/*	}*/
+/*	.footer__link {*/
+/*		font-size: 12px;*/
+/*	}*/
+/*	.footer__social a {*/
+/*		font-size: 16px;*/
+/*	}*/
+/*	.footer__social {*/
+/*		width: 250px;*/
+/*	}*/
+/*}*/
+
+/*@media (max-width: 576px) {*/
+/*	.container {*/
+/*		max-width: 550px;*/
+/*	}*/
+/*	.catalog__title {*/
+/*		font-size: 38px;*/
+/*	}*/
+/*	.menu__links_block {*/
+/*		display: none;*/
+/*	}*/
+/*	.w3-container {*/
+/*		margin-left: 20px;*/
+/*	}*/
+/*	.burger-menu {*/
+/*		display: block;*/
+/*		margin-right: 0;*/
+/*	}*/
+/*	.header__nav {*/
+/*		width: 515px;*/
+/*	}*/
+/*	!*    ------------------------------*!*/
+/*	#hero {*/
+/*		height: 75vh;*/
+/*	}*/
+/*	.item__img {*/
+/*		display: none;*/
+/*	}*/
+/*	!*    -----------------------------*!*/
+/*	.slide img {*/
+/*		margin-left: 90px;*/
+/*	}*/
+/*	!*    -------------------------------------------------*!*/
+
+/*	!*    ---------------------------------------------*!*/
+/*	.success__title {*/
+/*		font-size: 38px;*/
+/*	}*/
+/*	.success__items {*/
+/*		display: block;*/
+/*		text-align: center;*/
+/*		max-width: 500px;*/
+/*		margin-left: 12px;*/
+/*	}*/
+/*	.succes__items__item__title {*/
+/*		font-size: 20px;*/
+/*		margin: 10px 0;*/
+/*	}*/
+/*	.succes__items__item__desc {*/
+/*		font-size: 14px;*/
+/*	}*/
+/*	!*    ----------------------------------------------------*!*/
+/*	.reviews__icon {*/
+/*		margin-left: 220px;*/
+/*		width: 150px;*/
+/*		margin-top: -78px;*/
+/*	}*/
+/*	.reviews__title {*/
+/*		font-size: 20px;*/
+/*	}*/
+/*	.image-slider__image img {*/
+/*		width: 260px;*/
+/*		margin-left: 15px;*/
+/*	}*/
+/*	.classes__items {*/
+/*		padding-top: 20px;*/
+/*		margin-left: 1px;*/
+/*	}*/
+/*	.classes__wrap {*/
+/*		font-size: 14px;*/
+/*		width: 240px;*/
+/*	}*/
+/*	.classes__item h3 {*/
+/*		font-size: 22px;*/
+/*	}*/
+/*	!*    ------------------------------------*!*/
+/*	#advantages {*/
+/*		margin-top: -40px;*/
+/*	}*/
+/*	.advantages__title {*/
+/*		font-size: 30px;*/
+/*	}*/
+/*	.advantages__items {*/
+/*		display: block;*/
+/*	}*/
+/*	.advantages__wrap p {*/
+/*		padding-bottom: 10px;*/
+/*	}*/
+/*	.advantages__item__img img {*/
+/*		margin: 0 15px;*/
+/*	}*/
+/*	!*    ------------------------------------*!*/
+/*	.students__item {*/
+/*		font-size: 16px;*/
+/*	}*/
+/*	.students__item__img img {*/
+/*		width: 250px;*/
+/*	}*/
+/*	.students__item__img::before {*/
+/*		width: 250px;*/
+/*		height: 166.5px;*/
+/*	}*/
+/*	.students__item__wrap p {*/
+/*		font-size: 18px;*/
+/*		margin-top: 30px;*/
+/*	}*/
+/*	!*    ----------------------------------------*!*/
+/*	.footer__img {*/
+/*		display: none;*/
+/*	}*/
+/*	.footer__img2 {*/
+/*		display: block;*/
+/*	}*/
+/*	.footer__link {*/
+/*		font-size: 10px;*/
+/*	}*/
+/*	.footer__social a {*/
+/*		font-size: 12px;*/
+/*		border-radius: 8px;*/
+/*	}*/
+/*}*/
+
+/*@media (max-width: 415px) {*/
+/*	[data-aos^='fade'][data-aos^='fade'].aos-animate {*/
+/*		transform: translateY(100px);*/
+/*		opacity: 1;*/
+/*	}*/
+/*	.burger-menu {*/
+/*		margin-right: 0;*/
+/*	}*/
+/*	.success__title {*/
+/*		font-size: 28px;*/
+/*	}*/
+/*	.footer__social {*/
+/*		width: 165px;*/
+/*	}*/
+/*	.students__item__img img {*/
+/*		width: 180px;*/
+/*		margin-top: 40px;*/
+/*	}*/
+/*	.students__item__img::before {*/
+/*		width: 180px;*/
+/*		height: 120px;*/
+/*		margin-top: 40px;*/
+/*	}*/
+/*	.content__link {*/
+/*		border-radius: 50px;*/
+/*		padding: 5px 10px;*/
+/*		font-size: 10px;*/
+/*	}*/
+/*	.content__link img {*/
+/*		height: 10px;*/
+/*	}*/
+/*	.students__item {*/
+/*		font-size: 14px;*/
+/*	}*/
+/*	.reviews__icon {*/
+/*		margin-left: 150px;*/
+/*	}*/
+/*	.catalog__card {*/
+/*		width: 380px;*/
+/*	}*/
+/*	.w3-container {*/
+/*		width: 350px;*/
+/*		margin-left: 5px;*/
+/*	}*/
+/*	.catalog {*/
+/*		padding-top: 100px;*/
+/*	}*/
+/*	.catalog__title {*/
+/*		font-size: 28px;*/
+/*	}*/
+/*	.header__nav {*/
+/*		width: 370px;*/
+/*	}*/
+/*	.header__logo {*/
+/*		width: 180px;*/
+/*	}*/
+/*	.container {*/
+/*		max-width: 400px;*/
+/*	}*/
+/*	.slide img {*/
+/*		width: 300px;*/
+/*		margin-left: 60px;*/
+/*	}*/
+/*	.slick-next {*/
+/*		margin-top: -240px;*/
+/*	}*/
+/*	.slick-prev {*/
+/*		margin-top: 135px;*/
+/*	}*/
+/*	.success__items {*/
+/*		max-width: 400px;*/
+/*		margin-left: 5px;*/
+/*	}*/
+/*}*/
+
+/*@media (max-width: 320px) {*/
+/*	.footer__link {*/
+/*		font-size: 10px;*/
+/*		width: 41%;*/
+/*	}*/
+/*	.success__items {*/
+/*		max-width: 285px;*/
+/*	}*/
+
+/*	[data-aos^='fade'][data-aos^='fade'].aos-animate {*/
+/*		transform: translateY(10px);*/
+/*		opacity: 1;*/
+/*	}*/
+
+/*	.header__nav {*/
+/*		width: 95%;*/
+/*	}*/
+/*	.header__logo {*/
+/*		width: 80%;*/
+/*	}*/
+
+/*	.catalog__title {*/
+/*		font-size: 21px;*/
+/*	}*/
+/*	.catalog__card {*/
+/*		width: 94%;*/
+/*		padding: 12px;*/
+/*	}*/
+/*	.success__title {*/
+/*		margin-top: -100px;*/
+/*		font-size: 24px;*/
+/*	}*/
+/*	!*    ------------------------*!*/
+/*	.slide img {*/
+/*		width: 300px;*/
+/*		margin-left: -205px;*/
+/*	}*/
+/*	!*    ----------------------------------*!*/
+/*	.vacancies__items__item {*/
+/*		display: block;*/
+/*		text-align: center;*/
+/*		padding-bottom: 5px;*/
+/*	}*/
+/*	.vacancies__items__item__wrap {*/
+/*		display: block;*/
+/*	}*/
+/*	.vacancies__links {*/
+/*		font-size: 16px;*/
+/*	}*/
+/*	!*    ----------------------------------*!*/
+/*	.succes__items__item__desc {*/
+/*		font-size: 10px;*/
+/*	}*/
+/*	!*    ----------------------------------*!*/
+/*	#reviews {*/
+/*		border-radius: 20px;*/
+/*	}*/
+/*	.reviews__icon {*/
+/*		margin-left: 120px;*/
+/*		width: 100px;*/
+/*		margin-top: -84px;*/
+/*	}*/
+/*	.image-slider__image img {*/
+/*		width: 285px;*/
+/*		margin-left: 15px;*/
+/*	}*/
+/*	!*-------------------------------------------------*!*/
+/*	.classes__items {*/
+/*		padding-left: 20px;*/
+/*	}*/
+/*	.classes__wrap {*/
+/*		font-size: 14px;*/
+/*		width: 250px;*/
+/*	}*/
+/*	.classes__item h3 {*/
+/*		font-size: 24px;*/
+/*	}*/
+/*	!*    ---------------------------------------*!*/
+/*	.advantages__item__img img {*/
+/*		margin: 0 5px;*/
+/*		width: 50px;*/
+/*	}*/
+/*	!*    ----------------------------------------------------*!*/
+/*	.students__item__img1 img {*/
+/*		width: 30px;*/
+/*	}*/
+/*	.students__item__wrap p {*/
+/*		font-size: 16px;*/
+/*	}*/
+/*	.students__item {*/
+/*		font-size: 15px;*/
+/*		width: 200%;*/
+/*	}*/
+/*	!*    -----------------------------------------*!*/
+/*	.footer__img2 {*/
+/*		width: 20px;*/
+/*	}*/
+/*	.footer__links a {*/
+/*		font-size: 8px;*/
+/*		margin: 0 10px;*/
+/*	}*/
+/*	.footer__social {*/
+/*		margin-left: 30px;*/
+/*	}*/
+/*	.footer__social a {*/
+/*		font-size: 12px;*/
+/*		border-radius: 8px;*/
+/*		margin: 0;*/
+/*		padding: 2px 4px;*/
+/*	}*/
+/*	.footer__links {*/
+/*		display: inline;*/
+/*		margin-left: 10px;*/
+/*		width: 150px;*/
+/*	}*/
+/*	.slide img {*/
+/*		width: 300px;*/
+/*		margin-left: -204px;*/
+/*	}*/
+/*	.slick-next {*/
+/*		opacity: 0;*/
+/*	}*/
+/*	.slick-prev {*/
+/*		opacity: 0;*/
+/*	}*/
+/*	#classes {*/
+/*		margin-top: 150px;*/
+/*	}*/
+/*	.advantages__title {*/
+/*		font-size: 26px;*/
+/*	}*/
+/*	.container {*/
+/*		max-width: 310px;*/
+/*	}*/
+/*	.students__wrap {*/
+/*		display: block;*/
+/*	}*/
+/*	.students__item__img img {*/
+/*		width: 270px;*/
+/*		margin-top: 0;*/
+/*	}*/
+/*	.students__item__img::before {*/
+/*		width: 270px;*/
+/*		height: 180px;*/
+/*		margin-top: 0;*/
+/*	}*/
+/*	.w3-container {*/
+/*		width: 300px;*/
+/*		margin-left: 2px;*/
+/*	}*/
+/*	.footer__social {*/
+/*		width: 26%;*/
+/*	}*/
+
+/*	.content__link {*/
+/*		width: 141%;*/
+/*	}*/
+/*}*/
